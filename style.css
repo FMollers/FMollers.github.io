@@ -148,7 +148,7 @@ footer h3 {
   grid-gap: 15px;
 }
 
-@media (min-width: 500px) {
+@media only screen and (min-width: 500px) {
   .start {
     display: flex;
     height: 100%;
