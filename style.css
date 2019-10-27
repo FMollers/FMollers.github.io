@@ -28,8 +28,8 @@ img {
   max-width: 100%;
 }
 
-.profile-picture img {
-  margin-bottom: 2rem;
+.testimonial-customer img {
+  margin: 2rem 0;
   width: 10rem;
   height: 10rem;
   border-radius: 100%;
@@ -64,7 +64,7 @@ main {
 .start-image {
   background: url(images/OIL_PAINT.jpg) center no-repeat;
   background-size: cover;
-  height: 30vh;
+  height: 0vh;
   flex: 0 1 60vw;
   margin: 0;
 }
