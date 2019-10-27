@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  background: #eee;
+  height: auto;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.testimonial-customer img {
+  margin: 2rem 0;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.2),
+    -30px 0px 40px rgba(0, 0, 0, 0.2);
+}
+
+.start {
+  background: #fff;
+}
+
+.start-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.start-text h2 {
+  color: #888;
+}
+
+.start-image {
+  background: url(images/OIL_PAINT.jpg) center no-repeat;
+  background-size: cover;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+.btn {
+  text-transform: uppercase;
+  padding: 0.5rem 2rem;
+  border: 3px #ccc solid;
+  display: inline-block;
+  margin: 2rem 0 0;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  transition: background 500ms ease;
+}
+
+.btn:hover {
+  background: #979797;
+}
+
+.header {
+  text-align: center;
+  background: #FFFFFF;
+  color: 333;
+}
+
+.header h2 {
+  display: inline-block;
+  padding: 1rem 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #333;
+}
+
+footer h3 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 1100px;
+  /* display: flex;
+  justify-content: space-between; */
+  padding: 2.8rem;
+  margin: 5rem auto;
+  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.2),
+    -30px 0px 40px rgba(0, 0, 0, 0.2);
+  border: #fff solid 5px;
+  background: #fff;
+}
+
+.header-container {
+  max-width: 1100px;
+  /* display: flex;
+  justify-content: space-between; */
+  padding: 2.8rem;
+  margin: 5rem auto;
+  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+    -30px 0px 40px rgba(0, 0, 0, 0.1);
+  border: #fff solid 5px;
+  background: #fff;
+}
+
+.picture-frame {
+  max-width: 1200px;
+  margin: 3rem auto;
+  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.2),
+    -30px 0px 40px rgba(0, 0, 0, 0.2);
+  border: #fff solid 5px;
+  background: #fff;
+}
+
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 15px;
+}
+
+@media (min-width: 500px) {
+  .start {
+    display: flex;
+    height: 100%;
+  }
+
+  .start-text {
+    height: 100vh;
+  }
+
+  .start-image {
+    height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .btn {
+    padding: 1rem 3rem;
+  }
+}
+
+@media only screen and (min-width: 970px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
